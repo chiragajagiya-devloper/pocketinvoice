@@ -33,6 +33,12 @@
   li {
     margin-bottom: 8px;
   }
+  code {
+    background: #f3f4f6;
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-size: 13px;
+  }
   .cta {
     margin-top: 40px;
     padding: 16px 20px;
@@ -50,24 +56,25 @@
 </style>
 </head>
 <body>
-
 <h1>Pocket Invoice</h1>
-<p class="tagline">A simple mobile app to create, manage, and export professional invoices — right from your phone.</p>
+<p class="tagline">A simple app to create, manage, and export professional invoices — on your phone or your Windows PC.</p>
 
 <h2>What this app does</h2>
-<p>Pocket Invoice helps small business owners, freelancers, and shopkeepers create GST-ready invoices without needing a computer or accounting software. Add your customer (party) details, line items, taxes, and bank details, then generate a clean PDF invoice you can share instantly.</p>
+<p>Pocket Invoice helps small business owners, freelancers, and shopkeepers create GST-ready invoices without needing separate accounting software. Add your customer (party) details, line items, taxes, deductions, and bank details, then generate a clean, fully customized PDF invoice you can share instantly.</p>
 
 <h2>Key Features</h2>
 <ul>
-  <li>Create and customize invoices with line items, taxes, and deductions</li>
-  <li>Save reusable customer (party) and bank profiles</li>
+  <li>Build invoices with line items, headings, and increase/deduction rows, in any order</li>
+  <li>Save reusable customer (party) and bank profiles so you don't retype them each time</li>
+  <li>Customize your PDF layout — columns, totals order and formatting, page padding, fonts, and more</li>
   <li>Export invoices as PDF for sharing or printing</li>
-  <li>Optional Google Drive backup — keep your invoice data safe and move it to a new device without losing anything</li>
+  <li>Local backup and restore, saved directly on your device or a folder of your choice</li>
+  <li>Optional Google Drive backup — keep your invoice data safe and move it to a new device without losing anything, on Android and Windows</li>
   <li>Works fully offline for day-to-day invoice creation</li>
 </ul>
 
 <h2>Google Account Access</h2>
-<p>Pocket Invoice only requests access to a private, app-specific storage area in your Google Drive (the <code>drive.appdata</code> scope) — solely to back up and restore your own invoice data. The app never accesses your personal files, Gmail, or Contacts.</p>
+<p>Pocket Invoice only requests the <code>drive.file</code> scope, which limits access to a single folder named "Pocket Invoice Backups" that the app creates in your Google Drive — solely to back up and restore your own invoice data. You can see and manage that folder yourself in Drive at any time. The app never accesses your existing Drive files, Gmail, or Contacts.</p>
 
 <div class="cta">
   <strong>Privacy Policy:</strong> <a href="./privacy-policy/">Read our Privacy Policy</a><br>
@@ -77,6 +84,5 @@
 <footer>
   &copy; 2026 Pocket Invoice. All rights reserved.
 </footer>
-
 </body>
 </html>
